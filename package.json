@@ -1,0 +1,23 @@
+{
+  "name": "md-actions/dump-workflow-inputs",
+  "version": "1.0.0",
+  "description": "Dump workflow inputs to logs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/md-actions/dump-workflow-inputs.git"
+  },
+  "author": "Sebastian.Goral@md.de",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/md-actions/dump-workflow-inputs/issues"
+  },
+  "homepage": "https://github.com/md-actions/dump-workflow-inputs#readme",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.0"
+  }
+}

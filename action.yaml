@@ -1,0 +1,11 @@
+name: Dump inputs
+author: Sebastian.Goral@md.de
+description: Dump branch/tag, commit hash and workflwo inputs to log.
+runs:
+  using: node16
+  main: 'index.js'
+inputs:
+  inputs:
+    required: false
+    description: The workflow inputs as json. These must be passed to the action, as there is no other way to access them.
+    default: '{}'
