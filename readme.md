@@ -1,3 +1,6 @@
+# [DEPRECATED]
+This action has moved to https://github.com/freenet-actions/dump-workflow-inputs
+
 # dump workflow inputs
 
 This action dumps the branch/tag, commit hash and workflow inputs to the log.
